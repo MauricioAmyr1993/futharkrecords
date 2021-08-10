@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Cinzel', serif;
+}
+
+#menu-h{
+    list-style: none;
+    padding: 0;
+}
+
+#menu-h li{
+    display: inline;
+}
+
+#menu-h li a{
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all .6s;
+}
+
+#menu-h li a:hover{
+    color: chocolate ;
+}
+
+#menu-h li a{
+    float: right;
+}
+
+body{
+    background-image: url(../ex003/CSS3/wallpaper_layout.png);
+    width: 100%;
+    height: 100%;
+}
